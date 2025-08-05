@@ -1,0 +1,64 @@
+h4{
+    font-size: 89px;
+    color:rgb(232, 15, 152);
+    
+}
+p{
+    font-size: 30px;
+    background-color: aliceblue;
+    color: crimson;
+
+}
+  h1{
+    t.tarnsfrom_uppercase{
+        text-transform: uppercase;
+    }
+
+    t.tarnsfrom_lowercase{
+        text-transform: lowercase;
+    }
+    t.tarnsfrom_caitilize{
+        text-transform: capitalize;
+    }
+
+
+}
+
+
+    .t_right{
+        text-align: center;
+    }
+
+    .t_decor_underline{
+        text-decoration: underline;
+    }
+
+    .t_decor_overline{
+        text-decoration: underline;
+    }
+    t.decor_linethrought{
+        text-decoration: line-through;
+    }
+
+    .t_decor{
+        text-decoration: underline overline line-through;
+    }
+
+.t_indent{
+    text-indent: 170px;
+}
+
+h2{
+
+t.letter_space{
+    
+}
+t.word_space{
+    word-spacing: 30px;
+}
+}
+
+.line_height{
+    line-height:54px;
+}
+
