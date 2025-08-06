@@ -1,0 +1,114 @@
+
+        .t_shadow{
+            text-align: center;
+            font-size: 90px;
+            color: rgb(169, 46, 46);
+            text-shadow: 10px 4px 5px rgb(29, 204, 223);
+        }
+        .t_shadow2{
+            text-align: center;
+            font-size: 90px;
+            color: lightblue;
+            text-shadow: 10px 7px 5px crimson;
+        }
+        .t_shadow3{
+            text-align: center;
+            font-size: 90px;
+            color: wheat;
+            text-shadow: 10px 4px 5px crimson;
+        }
+        .b_shadow{
+            box-shadow: 13px 5px 12px crimson;
+            width: 120px;
+            height: 280px;
+            text-align: end;
+          
+
+        }
+        .b_shadow{
+            width: 150px;
+            filter: drop-shadow(4px 5px 4px crimson);
+        }
+
+        .d_shadow{
+             width: 150px;
+            filter: drop-shadow(4px 5px 4px crimson);
+            text-align: center;
+        }
+
+.t_size{
+    color: aqua;
+    font-size: 49px;
+}
+
+.t_color{
+    color: red;
+
+}
+.t_bg{
+    background-color: orange;
+
+}
+.t_center{
+    text-align: center;
+}
+
+.f_family1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    font-size: 34px;
+    color: crimson;
+    background-color: aliceblue;
+
+}
+.f_family2{
+    font-family: serif;
+    font-style: oblique;
+     text-align: center;
+    font-size: 23px;
+    color: orange;
+    
+}
+.f_family3{
+    
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+    text-align: center;
+    font-size: 14px;
+    color: blue;
+}
+.f_family4{
+    
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.b_prop1{
+    border: 6px dotted rgb(119, 240, 6);
+}
+.b_prop2{
+    border: 6px double crimson;
+    width: 190px;
+    text-align: center;
+}
+.b_prop3{
+    border: 5px dashed orangered;
+    width: 230px;
+    text-align: center;
+}
+.b_prop4{
+    border: 3px outset blue ;
+    width: 150px;
+}
+.b_prop5{
+    border: 6px solid skyblue;
+
+}
+
+
+
+
+
+
+
+
