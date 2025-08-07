@@ -1,59 +1,64 @@
+.t_shadow {
+    text-align: center;
+    font-size: 90px;
+    color: rgb(169, 46, 46);
+    text-shadow: 10px 4px 5px rgb(29, 204, 223);
+}
 
-        .t_shadow{
-            text-align: center;
-            font-size: 90px;
-            color: rgb(169, 46, 46);
-            text-shadow: 10px 4px 5px rgb(29, 204, 223);
-        }
-        .t_shadow2{
-            text-align: center;
-            font-size: 90px;
-            color: lightblue;
-            text-shadow: 10px 7px 5px crimson;
-        }
-        .t_shadow3{
-            text-align: center;
-            font-size: 90px;
-            color: wheat;
-            text-shadow: 10px 4px 5px crimson;
-        }
-        .b_shadow{
-            box-shadow: 13px 5px 12px crimson;
-            width: 120px;
-            height: 280px;
-            text-align: end;
-          
+.t_shadow2 {
+    text-align: center;
+    font-size: 90px;
+    color: lightblue;
+    text-shadow: 10px 7px 5px crimson;
+}
 
-        }
-        .b_shadow{
-            width: 150px;
-            filter: drop-shadow(4px 5px 4px crimson);
-        }
+.t_shadow3 {
+    text-align: center;
+    font-size: 90px;
+    color: wheat;
+    text-shadow: 10px 4px 5px crimson;
+}
 
-        .d_shadow{
-             width: 150px;
-            filter: drop-shadow(4px 5px 4px crimson);
-            text-align: center;
-        }
+.b_shadow {
+    box-shadow: 13px 5px 12px crimson;
+    width: 120px;
+    height: 280px;
+    text-align: end;
 
-.t_size{
+
+}
+
+.b_shadow {
+    width: 150px;
+    filter: drop-shadow(4px 5px 4px crimson);
+}
+
+.d_shadow {
+    width: 150px;
+    filter: drop-shadow(4px 5px 4px crimson);
+    text-align: center;
+}
+
+.t_size {
     color: aqua;
     font-size: 49px;
 }
 
-.t_color{
+.t_color {
     color: red;
 
 }
-.t_bg{
+
+.t_bg {
     background-color: orange;
 
 }
-.t_center{
+
+.t_center {
     text-align: center;
 }
 
-.f_family1{
+.f_family1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
     text-align: center;
@@ -62,53 +67,155 @@
     background-color: aliceblue;
 
 }
-.f_family2{
+
+.f_family2 {
     font-family: serif;
     font-style: oblique;
-     text-align: center;
+    text-align: center;
     font-size: 23px;
     color: orange;
-    
+
 }
-.f_family3{
-    
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-style: italic;
+
+.f_family3 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
     text-align: center;
     font-size: 14px;
     color: blue;
 }
-.f_family4{
-    
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.f_family4 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.b_prop1{
+.b_prop1 {
     border: 6px dotted rgb(119, 240, 6);
 }
-.b_prop2{
-    border: 6px double crimson;
+
+.b_prop2 {
+    border: 5px double crimson;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 30px;
     width: 190px;
-    text-align: center;
+
 }
-.b_prop3{
+
+.b_prop3 {
     border: 5px dashed orangered;
     width: 230px;
     text-align: center;
 }
-.b_prop4{
-    border: 3px outset blue ;
+
+.b_prop4 {
+    border: 3px outset blue;
     width: 150px;
 }
-.b_prop5{
+
+.b_prop5 {
     border: 6px solid skyblue;
 
 }
 
+.b_prop8 {
+
+    border: 5px double crimson;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 30px;
+    width: 30%;
+    border-radius: 40px 20px 40px 20px;
+    border-bottom: green red orange pink;
+
+
+}
+
+.b_prop9 {
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    width: 30%;
+
+
+}
+.b_prop10{
+    
+    border: 10px double crimson;
+    /*
+     border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 30px;*/
+    border-radius: 40px 20px 40px 20px;
+    border-color: green red orange #0a0b0a;
+    width: 33%;
 
 
 
+}
+.box_model1{
+    border: 30px solid crimson;
+    padding: 40px;
+    margin: 50px;
 
+}
+.box_model3{
+    border: 5px solid crimson;
+   /* padding: 60px; */
+   padding: 50px 40px 50px 40px;
+   width: 30%;
+   margin-top: 70px;
+   
+}
+.box_model4{
+    border: 40px solid crimson;
+    padding: 40px;
+    margin: 50px;
+    width: 33%;
+    margin-top: 50px;
+}
+.box_model5{
+    width: 30%;
+    border: 3px double rgb(7, 208, 47);
+    border-radius: 20px;
+    padding: 40px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
 
+.box_model2{
 
+border: 14px solid rgb(33, 10, 182);
+    padding: 80px;
+    margin: 90px;
+}
 
+.linear{
+    height: 500px;
+    background: linear-gradient(to right,orange,white,green);
+    border-radius: 50%;
+    
+}
+.heading1{
+    text-align: center;
+    font-size: 200px;
+
+    
+}
+.radial{
+    text-align: center;
+    height: 500px;
+    background: radial-gradient(circle ,orange,white,green);
+    border-radius: 50%;
+    font-size: 100px;
+}
+.conic{
+    height: 400px;
+    background: conic-gradient(from 90deg, orange,rgb(7, 127, 207),green,blue);
+}
