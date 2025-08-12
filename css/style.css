@@ -219,3 +219,134 @@ border: 14px solid rgb(33, 10, 182);
     height: 400px;
     background: conic-gradient(from 90deg, orange,rgb(7, 127, 207),green,blue);
 }
+
+body{
+    background-image: url("/images/bk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    text-align:center;
+    font-size: 60px;color: gold;
+    padding-top: 25px;
+    background-color: rgb(117 79 89 / 62%);
+    
+}
+.text{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: transparent;
+    background: transparent;
+    background-color: rgb(117 79 89 / 62%);
+
+
+}
+/*position */
+.box{
+    width: 250px;
+    height: 140px;
+    background-color: gray;
+    border: 2px solid crimson;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+.box1{
+    position: sticky;
+    /* left:400px;*/
+}
+.box2{
+    position: relative;
+    left: 300px;
+    top: 20px;
+
+}
+.box3{
+    position: absolute;
+    left: 500px;
+    top: 20px;
+
+}
+.box4{
+    position: fixed;
+    bottom: 0px;
+    right: 100px;
+}
+.box5{
+    position: sticky;
+    top: 30px;
+}
+
+.rel{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: crimson;
+    top: 30px;
+    left: 500px;
+
+}
+#tv{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    left: 170px;
+    background-color: white;
+    top: 15px;
+    text-align: center;
+
+}
+#sofa{
+    position: absolute;
+    height: 50px;
+    width: 350px;    
+    left: 350px;
+    background-color: blue;
+    top: 120px;
+    text-align: center;
+}
+ /* transfrom  */
+
+ .img-wrapper{
+   width: 100px;
+   height: 250px;
+   border: 2px solid red;
+   position: relative;
+   overflow: hidden;
+
+ }
+ .inner-img{
+    width: 100px;
+    height: 100px;
+    transition: 3s;
+
+}
+.inner-img:hover{
+    transform: scale(1.5);
+
+}
+ .simple_animation{
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+            animation:  myfirstanimation;
+            -webkit-animation:  myfirstanimation;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+           animation-direction: alternate;
+            animation-delay: 0s;
+        }
+        @keyframes myfirstanimation {
+            0%{background-color: aqua;left:0px;top: 0px;}
+             25%{background-color: rgb(6, 220, 24);left:300px;top: 0px;}
+              50%{background-color: rgb(59, 10, 195);left:300px;top: 300px;}
+               75%{background-color: rgb(155, 200, 8);left:0px;top: 300px;}
+               100%{background-color: rgb(231, 12, 169);left:0px;top: 0px;}
+            
+        }
