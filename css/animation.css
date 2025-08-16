@@ -209,5 +209,30 @@ div{
    
 }
 
+body{
+   
+   justify-content: center;
+    display: flex;
+  
+   
+}
+.swing{
+   animation: swing 1.5s ease-in-out infinite alternate;
+   transform-origin: top center;
+   position: relative;
+}
 
+.swing img{
+   width: 200px;
+   border: 5px solid gray;
+   box-shadow: 2px 3px 10ex black ;
+ 
+
+}
+@keyframes swing {
+   0%{transform: rotate(360deg);}
+   100%{transform: rotate(-360deg);}
+   
+   
+}
 
